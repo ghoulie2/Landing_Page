@@ -1,4 +1,6 @@
-.words{
-    
-    color:blue;
+a {
+    all: unset;
 }
+ul {  
+    list-style-type: none;  
+    }  
