@@ -11,12 +11,14 @@ ul {
     justify-content: center;   
     background-color:#1F2937;
     flex-wrap: wrap;
+    
 }
 .links{
     width:30%;
     display:flex;
     font-size:18px;
     color:#e5e7eb;
+    
 
 }
 .logo{
@@ -25,19 +27,39 @@ ul {
     color:#F9FAF8;   
     font-weight:bold;
     font-size:24px;
+    
 }
 .info{
     width:50%;
+    
 }
 .image{
     width: 50%;
+    
 }
-.container2{ 
-        font-family: 'Roboto', sans-serif;
-        display:flex;
-        justify-content: center;   
-        background-color:#1F2937;
-        color:#F9FAF8;   
-        font-weight:bold;
-        font-size:24px;
+.left{
+    display:flex;
+    flex-direction: column;
+    background-color:#1F2937 ;
+    font-size:18px;
+    color:#e5e7eb;
+    border:solid 2px red;
+}
+button.sign-up{
+    background: royalblue;
+    align-self: flex-start;
+    color: white;
+    border-radius: 8px;
+    
+    
+}
+.body{
+    font-family: 'Roboto', sans-serif;
+    display:flex;
+    justify-content: center;   
+    flex-wrap: wrap;
+}
+.container2{
+    display:flex;
+    border:solid 2px red;
 }
