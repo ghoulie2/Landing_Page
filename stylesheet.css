@@ -8,28 +8,36 @@ ul {
 .header{
     font-family: 'Roboto', sans-serif;
     display:flex;
-    justify-content:space-between;
-    height:300px;
-    border:solid 1px blue;
+    justify-content: center;   
     background-color:#1F2937;
     flex-wrap: wrap;
 }
 .links{
-    border:solid 1px blue;
-    width:700px;
+    width:30%;
     display:flex;
-    gap:10px;
     font-size:18px;
     color:#e5e7eb;
 
 }
 .logo{
-    border:solid 1px blue;
-    width:300px;
+    display:flex;
+    width:30%;
     color:#F9FAF8;   
     font-weight:bold;
     font-size:24px;
 }
 .info{
-    width:1000px;
+    width:50%;
+}
+.image{
+    width: 50%;
+}
+.container2{ 
+        font-family: 'Roboto', sans-serif;
+        display:flex;
+        justify-content: center;   
+        background-color:#1F2937;
+        color:#F9FAF8;   
+        font-weight:bold;
+        font-size:24px;
 }
