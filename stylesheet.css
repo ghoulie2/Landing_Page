@@ -38,7 +38,9 @@ ul {
     border:solid 2px red;
 }
 .info{
-    width:50%;
+    font-size: 48px;
+    font-weight:bolder;
+    color:#F9FAF8;
     
 }
 .info2{
@@ -55,15 +57,14 @@ ul {
     display:flex;
     flex-direction: column;
     flex-wrap:wrap;
+    gap:6px;
     width:22%;
     background-color:#1F2937 ;
-    font-size:18px;
     color:#e5e7eb;
     border:solid 2px red;
 }
 button.sign-up{
     background: royalblue;
-
     color: white;
     border-radius: 8px;
     width: 80px;
@@ -81,4 +82,10 @@ button.sign-up{
     background-color:#1F2937;
     padding:30px;
     border:solid 2px red;
+}
+.container3{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
 }
