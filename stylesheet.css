@@ -27,8 +27,9 @@ ul {
     border:solid 2px red;
 }
 .logo{
-    justify-content: center;
+    justify-content: flex-start ;
     align-items: center;
+    padding-left:100px;
     height:48px;
     flex:1;
     display:flex;
@@ -40,25 +41,27 @@ ul {
 .info{
     font-size: 48px;
     font-weight:bolder;
-    color:#F9FAF8;
-    
+    color:#F9FAF8;   
 }
 .info2{
     display:flex;
     flex-wrap: wrap;
-    align-items: center;
+    
 }
 .image{
     display:flex;
+    height:200px;
+    flex:1;
+    padding-right:130px;
     border:solid 2px red;
     
 }
 .left{
     display:flex;
     flex-direction: column;
-    flex-wrap:wrap;
+    padding-left:130px;
     gap:6px;
-    width:22%;
+    flex:1;
     background-color:#1F2937 ;
     color:#e5e7eb;
     border:solid 2px red;
@@ -77,15 +80,12 @@ button.sign-up{
 }
 .container2{
     display:flex;
-    justify-content: center;
-    align-content: center;
     background-color:#1F2937;
-    padding:30px;
+    flex:1;
     border:solid 2px red;
 }
 .container3{
     display:flex;
     align-items: center;
     justify-content: center;
-
 }
