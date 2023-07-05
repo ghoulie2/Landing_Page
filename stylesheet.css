@@ -6,26 +6,30 @@ ul {
     list-style-type: none;  
     }  
 .header{
+    justify-content: space-around;
     font-family: 'Roboto', sans-serif;
-    display:flex;
-    justify-content: center;   
+    display:flex;   
     background-color:#1F2937;
     flex-wrap: wrap;
+    border:solid 2px red;
+
     
 }
 .links{
-    width:30%;
     display:flex;
+    gap:16px;
     font-size:18px;
     color:#e5e7eb;
+    border:solid 2px red;
 }
 .logo{
+    justify-content: center;
+    align-items: center;
     display:flex;
-    width:30%;
     color:#F9FAF8;   
     font-weight:bold;
     font-size:24px;
-    
+    border:solid 2px red;
 }
 .info{
     width:50%;
