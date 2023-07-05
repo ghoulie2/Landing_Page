@@ -6,25 +6,31 @@ ul {
     list-style-type: none;  
     }  
 .header{
+    align-items: center;
     justify-content: space-around;
     font-family: 'Roboto', sans-serif;
     display:flex;   
     background-color:#1F2937;
-    flex-wrap: wrap;
     border:solid 2px red;
-
+    padding:30px;
     
 }
 .links{
     display:flex;
+    height:48px;
+    flex:1;
     gap:16px;
     font-size:18px;
     color:#e5e7eb;
+    justify-content: center;
+    align-items: center;
     border:solid 2px red;
 }
 .logo{
     justify-content: center;
     align-items: center;
+    height:48px;
+    flex:1;
     display:flex;
     color:#F9FAF8;   
     font-weight:bold;
@@ -41,13 +47,15 @@ ul {
     align-items: center;
 }
 .image{
-    width: 50%;
+    display:flex;
+    border:solid 2px red;
     
 }
 .left{
     display:flex;
-    flex-wrap:wrap;
     flex-direction: column;
+    flex-wrap:wrap;
+    width:22%;
     background-color:#1F2937 ;
     font-size:18px;
     color:#e5e7eb;
@@ -68,5 +76,9 @@ button.sign-up{
 }
 .container2{
     display:flex;
+    justify-content: center;
+    align-content: center;
+    background-color:#1F2937;
+    padding:30px;
     border:solid 2px red;
 }
