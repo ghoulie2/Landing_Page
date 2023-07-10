@@ -6,37 +6,37 @@ ul {
     list-style-type: none;  
     }  
 .header{
+    display:flex;
+    flex-basis:auto;    
     align-items: center;
-    justify-content: space-around;
-    font-family: 'Roboto', sans-serif;
-    display:flex;   
     background-color:#1F2937;
     border:solid 2px red;
-    padding:30px;
-    
+
 }
 .links{
     display:flex;
-    height:48px;
-    flex:1;
+    flex-basis:auto;    
     gap:16px;
     font-size:18px;
     color:#e5e7eb;
     justify-content: center;
-    align-items: center;
     border:solid 2px red;
+    box-sizing: border-box;
+    width:50%;
+    height:100px;
 }
 .logo{
-    justify-content: flex-start ;
-    align-items: center;
+    justify-content: flex-start;
+    flex-basis:auto;    
     padding-left:100px;
-    height:48px;
-    flex:1;
     display:flex;
     color:#F9FAF8;   
     font-weight:bold;
     font-size:24px;
     border:solid 2px red;
+    box-sizing: border-box;
+    width:50%;
+    height: 100px;
 }
 .info{
     font-size: 48px;
@@ -74,9 +74,10 @@ button.sign-up{
     height:30px; 
     font-weight: 700;
 }
-.body{
+body{
     font-family: 'Roboto', sans-serif;
     display:flex;
+    flex-direction: column;
 }
 .container2{
     display:flex;
