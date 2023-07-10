@@ -6,8 +6,7 @@ ul {
     list-style-type: none;  
     }  
 .header{
-    display:flex;
-    flex-basis:auto;    
+    display:flex;    
     align-items: center;
     background-color:#1F2937;
     border:solid 2px red;
@@ -51,20 +50,24 @@ ul {
 .image{
     display:flex;
     height:200px;
-    flex:1;
-    padding-right:130px;
+    flex-basis:auto;
+    box-sizing: border-box;
+    width:100%;
+    padding-right:100px;
     border:solid 2px red;
     
 }
 .left{
     display:flex;
     flex-direction: column;
-    padding-left:130px;
+    padding-left:100px;
     gap:6px;
-    flex:1;
+    flex-basis:auto;
     background-color:#1F2937 ;
     color:#e5e7eb;
     border:solid 2px red;
+    box-sizing: border-box;
+    width:100%; 
 }
 button.sign-up{
     background: royalblue;
