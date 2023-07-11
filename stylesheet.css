@@ -13,8 +13,7 @@ ul {
 
 }
 .links{
-    display:flex;
-    flex-basis:auto;    
+    display:flex;  
     gap:16px;
     font-size:18px;
     color:#e5e7eb;
@@ -45,6 +44,7 @@ ul {
 .info2{
     display:flex;
     flex-wrap: wrap;
+    width:400px;
     
 }
 .image{
@@ -62,7 +62,6 @@ ul {
     flex-direction: column;
     padding-left:100px;
     gap:6px;
-    flex-basis:auto;
     background-color:#1F2937 ;
     color:#e5e7eb;
     border:solid 2px red;
