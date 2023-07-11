@@ -87,6 +87,8 @@ body{
     flex:1;
     border:solid 2px red;
 }
-.container3{
+.title{
     display:flex;
+    justify-content: center;
+    align-items:center;
 }
