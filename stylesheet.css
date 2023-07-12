@@ -1,3 +1,9 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    display:flex;
+    flex-direction: column;
+}
+
 
 a {
     all: unset;
@@ -76,11 +82,6 @@ button.sign-up{
     height:30px; 
     font-weight: 700;
 }
-body{
-    font-family: 'Roboto', sans-serif;
-    display:flex;
-    flex-direction: column;
-}
 .container2{
     display:flex;
     background-color:#1F2937;
@@ -92,3 +93,14 @@ body{
     justify-content: center;
     align-items:center;
 }
+.border{
+    border:solid 4px blue;
+    height:300px;
+    width: 200px;
+}
+.box1{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+}
+
