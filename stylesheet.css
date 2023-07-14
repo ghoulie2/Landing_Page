@@ -14,8 +14,8 @@ ul {
     align-items: center;
     background-color:#1F2937;
     border:solid 2px red;
-    padding-left:80px;
-    padding-right:80px;
+    padding-left:200px;
+    padding-right:200px;
 
 }
 .links{
@@ -54,10 +54,10 @@ ul {
 }
 .image{
     display:flex;
-    flex:1;
+    flex: 1;
     height:235px;
-    
     border:solid 2px red;
+    justify-content: flex-end;
     
 }
 .left{
@@ -67,7 +67,7 @@ ul {
     color:#e5e7eb;
     border:solid 2px red;
     box-sizing: border-box;
-    flex:1;
+    flex:1 1 0;
 }
 button.sign-up{
     background: royalblue;
@@ -82,8 +82,8 @@ button.sign-up{
     background-color:#1F2937;
     flex:1;
     border:solid 2px red;
-    padding-left:80px;
-    padding-right:80px;
+    padding-left:200px;
+    padding-right:200px;
 
 }
 .title{
