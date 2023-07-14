@@ -104,6 +104,7 @@ button.sign-up{
     flex-direction:row;
     justify-content: center;
     gap:40px;
+    margin-bottom:100px;
 }
 .text{
     margin-top: 5px;
@@ -117,4 +118,32 @@ button.sign-up{
     justify-content: center;
     align-items: center;
     flex-wrap:wrap;
+}
+.container3{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    border:1px solid red;
+    height:400px;
+    padding-left: 500px;
+    padding-right: 500px;
+    background-color: #e5e7eb;
+}
+.quote{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-style:italic;
+    color: #1F2937;
+}
+.thor{
+    display:flex;
+    align-items:flex-end;
+    justify-content: flex-end;
+    border:1px solid red;
+    width:750px;
+    font-size:24px;
+    font-weight: bold;
 }
