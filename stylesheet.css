@@ -189,3 +189,12 @@ button.sign-up2{
     background-color: #3882f6;
     border-radius: 5px;
 }
+.footer{
+    height:60px;
+    display:flex;
+    background-color:#1F2937;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    flex-shrink:1;
+}
